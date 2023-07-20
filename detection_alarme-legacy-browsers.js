@@ -578,7 +578,7 @@ function endRoutineBegin(snapshot) {
     - Nombre d'alarmes rouges cliquées : ${nCorr} sur ${nb_rouge}
     - Nombre d'alarmes oranges et vertes cliquées :  ${nInCorr} sur ${nb_oran_vert}
     
-    - Temps de réponses moyen : ${meanRT} ms`
+    - Temps de réponse moyen : ${meanRT} ms`
     ;
     
     
