@@ -438,7 +438,7 @@ function trialRoutineEachFrame() {
       psychoJS.window.callOnFlip(function() { key_resp.clearEvents(); });
     }
 
-    frameRemains = 0.0 + 3 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    frameRemains = 0.0 + thisduration - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
     if (key_resp.status === PsychoJS.Status.STARTED && t >= frameRemains) {
       key_resp.status = PsychoJS.Status.FINISHED;
   }
